@@ -1,0 +1,27 @@
+{
+  "name": "online-search-app",
+  "version": "1.0.0",
+  "description": "Google Search Proxy running on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "search",
+    "proxy",
+    "render",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",  // (גרסה עשויה להשתנות מעט, GitHub ישמור גרסה עדכנית בזמן ההתקנה)
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0" // ציון גרסת Node מומלצת ל-Render
+  }
+}
