@@ -1,7 +1,7 @@
 {
-  "name": "my-search-site",  // Use the actual name you chose if different
+  "name": "my-search-site",  
   "version": "1.0.0",
-  "description": "Google Search Scraper running on Render (Experimental)", // Updated description
+  "description": "Google Search Scraper running on Render (Experimental)", 
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,7 @@
   "dependencies": {
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",   // <--- הפסיק החשוב נמצא כאן
+    "express": "^4.19.2",   
     "cheerio": "^1.0.0-rc.12"
   },
   "engines": {
